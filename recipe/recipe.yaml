@@ -1,6 +1,6 @@
 context:
   name: proxy-scraper-cli
-  version: "1.30.0"
+  version: "1.31.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/proxy_scraper_cli/proxy_scraper_cli-${{ version }}.tar.gz
-  sha256: 8959b7be3da9da5ecb0259c618c66992688735568a3996093ab435b7eac1baab
+  sha256: 5e5abf7d3c8826508b1d504a97526805771306ddafad1914150ef1db1d9de184
 
 build:
   number: 0
